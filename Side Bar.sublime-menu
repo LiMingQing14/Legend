@@ -1,0 +1,11 @@
+[
+    { "caption": "-", "id": "quickx" },
+    {
+        "caption": "Run With Player",
+        "id": "run_with_player",
+        "command": "legend_window",
+        "args": {
+            "dirs": []
+        }
+    }
+]

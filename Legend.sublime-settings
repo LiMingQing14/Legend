@@ -1,0 +1,6 @@
+{
+    // must set the path of exe
+    "legend_path": ""
+	// must set the path of storage
+	,"storage_path": ""
+}

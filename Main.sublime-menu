@@ -1,0 +1,49 @@
+[
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Legend",
+            "children":
+            [
+              {
+                "command": "open_file",
+                "args": {"file": "${packages}/Legend/Legend.sublime-settings"},
+                "caption": "Settings - Default"
+              },
+              {
+                "command": "open_file",
+                "args": {"file": "${packages}/User/Legend.sublime-settings"},
+                "caption": "Settings - User"
+              },
+              { "caption": "-" },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Legend/Default (Windows).sublime-keymap",
+                  "platform": "Windows"
+                },
+                "caption": "Key Bindings - Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/Default (Windows).sublime-keymap",
+                  "platform": "Windows"
+                },
+                "caption": "Key Bindings - User"
+              },
+              { "caption": "-" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
